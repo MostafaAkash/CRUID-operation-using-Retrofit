@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="6dp"
+    app:cardMaxElevation="10dp"
+    >
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="90dp"
+         android:orientation="horizontal"
+         android:id="@+id/main_block"
+         >
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:id="@+id/first_block_list_ac"
+             android:layout_weight="1"
+             android:orientation="vertical"
+             >
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="3"
+                 android:id="@+id/image_view_id_list_ac"
+                 android:src="@drawable/rohit"
+                 android:scaleType="fitXY"
+                 ></ImageView>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:id="@+id/name_id_list_ac"
+                 android:text="Name"
+                 android:gravity="center"
+                 android:textColor="#000"
+                 ></TextView>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:id="@+id/second_block_list_ac"
+             android:orientation="vertical"
+             android:layout_weight="3"
+             >
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:id="@+id/own_id_list_ac"
+                 android:textColor="#000"
+                 android:text="Id : "
+                 android:gravity="center_vertical"
+                 android:paddingLeft="80dp"
+                 ></TextView>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:id="@+id/age_id_list_ac"
+                 android:gravity="center_vertical"
+                 android:textColor="#000"
+                 android:text="Age : "
+                 android:paddingLeft="80dp"
+
+                 ></TextView>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:id="@+id/roll_id_list_ac"
+                 android:gravity="center_vertical"
+                 android:textColor="#000"
+                 android:text="Roll : "
+                 android:paddingLeft="80dp"
+                 ></TextView>
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
